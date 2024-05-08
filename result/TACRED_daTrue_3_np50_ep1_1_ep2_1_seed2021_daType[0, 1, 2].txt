@@ -1,0 +1,18 @@
+02/24/2023 14:26:29 - INFO - frame.my_frame -   log_path: result/TACRED_daTrue_3_np50_ep1_1_ep2_1_seed2021_daType[0, 1, 2].txt
+02/24/2023 14:26:29 - INFO - frame.my_frame -   hyper-parameter configurations:
+02/24/2023 14:26:29 - INFO - frame.my_frame -   {'gpu': 0, 'data_name': 'TACRED', 'task_name': 'TACRED', 'max_length': 256, 'this_name': 'continual', 'device': device(type='cuda'), 'batch_size': 16, 'learning_rate': 5e-06, 'total_round': 5, 'rel_per_task': 4, 'pattern': 'entity_marker', 'encoder_output_size': 768, 'vocab_size': 30522, 'marker_size': 4, 'temp': 0.1, 'feat_dim': 64, 'kl_temp': 10, 'num_workers': 0, 'step1_epochs': 1, 'step2_epochs': 1, 'seed': 2021, 'max_grad_norm': 10, 'num_protos': 50, 'optim': 'adam', 'data_path': 'dataset/', 'bert_path': '/home/cloud/Gjy/xyj/bert-base-uncased', 'data_augmentation': True, 'result_path': 'result', 'n_gpu': 1, 'data_augmentation_type': [0, 1, 2], 'log_path': 'result/TACRED_daTrue_3_np50_ep1_1_ep2_1_seed2021_daType[0, 1, 2].txt'}
+02/24/2023 14:26:51 - INFO - frame.my_frame -   log_path: result/TACRED_daTrue_3_np50_ep1_1_ep2_1_seed2021_daType[0, 1, 2].txt
+02/24/2023 14:26:51 - INFO - frame.my_frame -   hyper-parameter configurations:
+02/24/2023 14:26:51 - INFO - frame.my_frame -   {'gpu': 0, 'data_name': 'TACRED', 'task_name': 'TACRED', 'max_length': 256, 'this_name': 'continual', 'device': device(type='cuda'), 'batch_size': 16, 'learning_rate': 5e-06, 'total_round': 5, 'rel_per_task': 4, 'pattern': 'entity_marker', 'encoder_output_size': 768, 'vocab_size': 30522, 'marker_size': 4, 'temp': 0.1, 'feat_dim': 64, 'kl_temp': 10, 'num_workers': 0, 'step1_epochs': 1, 'step2_epochs': 1, 'seed': 2021, 'max_grad_norm': 10, 'num_protos': 50, 'optim': 'adam', 'data_path': 'dataset/', 'bert_path': '/home/cloud/Gjy/xyj/bert-base-uncased', 'data_augmentation': True, 'result_path': 'result', 'n_gpu': 1, 'data_augmentation_type': [0, 1, 2], 'log_path': 'result/TACRED_daTrue_3_np50_ep1_1_ep2_1_seed2021_daType[0, 1, 2].txt'}
+02/24/2023 14:27:34 - INFO - frame.my_frame -   Restart Num 1
+02/24/2023 14:27:34 - INFO - frame.my_frame -   task--1:
+02/24/2023 14:27:34 - INFO - frame.my_frame -   current test acc:0.9662162162162162
+02/24/2023 14:27:34 - INFO - frame.my_frame -   history test acc:0.9662162162162162
+02/24/2023 14:27:34 - INFO - frame.my_frame -   [0.9662162162162162]
+02/24/2023 14:27:34 - INFO - frame.my_frame -   [0.9662162162162162]
+02/24/2023 14:28:18 - INFO - frame.my_frame -   Restart Num 1
+02/24/2023 14:28:18 - INFO - frame.my_frame -   task--2:
+02/24/2023 14:28:18 - INFO - frame.my_frame -   current test acc:0.897196261682243
+02/24/2023 14:28:18 - INFO - frame.my_frame -   history test acc:0.9137254901960784
+02/24/2023 14:28:18 - INFO - frame.my_frame -   [0.9662162162162162, 0.897196261682243]
+02/24/2023 14:28:18 - INFO - frame.my_frame -   [0.9662162162162162, 0.9137254901960784]

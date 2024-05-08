@@ -1,0 +1,81 @@
+02/23/2023 21:47:47 - INFO - frame.my_frame -   log_path: result/FewRel_daTrue_3_np20_ep1_5_ep2_10_seed2021_daType[0, 2].txt
+02/23/2023 21:47:47 - INFO - frame.my_frame -   hyper-parameter configurations:
+02/23/2023 21:47:47 - INFO - frame.my_frame -   {'gpu': 0, 'data_name': 'FewRel', 'task_name': 'FewRel', 'max_length': 256, 'this_name': 'continual', 'device': device(type='cuda'), 'batch_size': 16, 'learning_rate': 5e-06, 'total_round': 5, 'rel_per_task': 8, 'pattern': 'entity_marker', 'encoder_output_size': 768, 'vocab_size': 30522, 'marker_size': 4, 'temp': 0.1, 'feat_dim': 64, 'kl_temp': 10, 'num_workers': 0, 'step1_epochs': 5, 'step2_epochs': 10, 'seed': 2021, 'max_grad_norm': 10, 'num_protos': 20, 'optim': 'adam', 'data_path': 'dataset/', 'bert_path': '/home/cloud/Gjy/xyj/bert-base-uncased', 'data_augmentation': True, 'result_path': 'result', 'n_gpu': 1, 'data_augmentation_type': [0, 2], 'log_path': 'result/FewRel_daTrue_3_np20_ep1_5_ep2_10_seed2021_daType[0, 2].txt'}
+02/23/2023 21:55:08 - INFO - frame.my_frame -   Restart Num 1
+02/23/2023 21:55:08 - INFO - frame.my_frame -   task--1:
+02/23/2023 21:55:08 - INFO - frame.my_frame -   current test acc:0.9883928571428572
+02/23/2023 21:55:08 - INFO - frame.my_frame -   history test acc:0.9883928571428572
+02/23/2023 21:55:08 - INFO - frame.my_frame -   [0.9883928571428572]
+02/23/2023 21:55:08 - INFO - frame.my_frame -   [0.9883928571428572]
+02/23/2023 22:03:45 - INFO - frame.my_frame -   Restart Num 1
+02/23/2023 22:03:45 - INFO - frame.my_frame -   task--2:
+02/23/2023 22:03:45 - INFO - frame.my_frame -   current test acc:0.9125
+02/23/2023 22:03:45 - INFO - frame.my_frame -   history test acc:0.9232142857142858
+02/23/2023 22:03:45 - INFO - frame.my_frame -   [0.9883928571428572, 0.9125]
+02/23/2023 22:03:45 - INFO - frame.my_frame -   [0.9883928571428572, 0.9232142857142858]
+02/23/2023 22:12:37 - INFO - frame.my_frame -   Restart Num 1
+02/23/2023 22:12:37 - INFO - frame.my_frame -   task--3:
+02/23/2023 22:12:37 - INFO - frame.my_frame -   current test acc:0.9758928571428571
+02/23/2023 22:12:37 - INFO - frame.my_frame -   history test acc:0.9410714285714286
+02/23/2023 22:12:37 - INFO - frame.my_frame -   [0.9883928571428572, 0.9125, 0.9758928571428571]
+02/23/2023 22:12:37 - INFO - frame.my_frame -   [0.9883928571428572, 0.9232142857142858, 0.9410714285714286]
+02/23/2023 22:22:11 - INFO - frame.my_frame -   Restart Num 1
+02/23/2023 22:22:11 - INFO - frame.my_frame -   task--4:
+02/23/2023 22:22:11 - INFO - frame.my_frame -   current test acc:0.9491071428571428
+02/23/2023 22:22:11 - INFO - frame.my_frame -   history test acc:0.9194196428571428
+02/23/2023 22:22:11 - INFO - frame.my_frame -   [0.9883928571428572, 0.9125, 0.9758928571428571, 0.9491071428571428]
+02/23/2023 22:22:11 - INFO - frame.my_frame -   [0.9883928571428572, 0.9232142857142858, 0.9410714285714286, 0.9194196428571428]
+02/23/2023 22:32:43 - INFO - frame.my_frame -   Restart Num 1
+02/23/2023 22:32:43 - INFO - frame.my_frame -   task--5:
+02/23/2023 22:32:43 - INFO - frame.my_frame -   current test acc:0.93125
+02/23/2023 22:32:43 - INFO - frame.my_frame -   history test acc:0.9096428571428572
+02/23/2023 22:32:43 - INFO - frame.my_frame -   [0.9883928571428572, 0.9125, 0.9758928571428571, 0.9491071428571428, 0.93125]
+02/23/2023 22:32:43 - INFO - frame.my_frame -   [0.9883928571428572, 0.9232142857142858, 0.9410714285714286, 0.9194196428571428, 0.9096428571428572]
+02/23/2023 22:43:42 - INFO - frame.my_frame -   Restart Num 1
+02/23/2023 22:43:42 - INFO - frame.my_frame -   task--6:
+02/23/2023 22:43:42 - INFO - frame.my_frame -   current test acc:0.9080357142857143
+02/23/2023 22:43:42 - INFO - frame.my_frame -   history test acc:0.8858630952380953
+02/23/2023 22:43:42 - INFO - frame.my_frame -   [0.9883928571428572, 0.9125, 0.9758928571428571, 0.9491071428571428, 0.93125, 0.9080357142857143]
+02/23/2023 22:43:42 - INFO - frame.my_frame -   [0.9883928571428572, 0.9232142857142858, 0.9410714285714286, 0.9194196428571428, 0.9096428571428572, 0.8858630952380953]
+02/23/2023 22:54:31 - INFO - frame.my_frame -   Restart Num 1
+02/23/2023 22:54:31 - INFO - frame.my_frame -   task--7:
+02/23/2023 22:54:31 - INFO - frame.my_frame -   current test acc:0.8535714285714285
+02/23/2023 22:54:31 - INFO - frame.my_frame -   history test acc:0.8686224489795918
+02/23/2023 22:54:31 - INFO - frame.my_frame -   [0.9883928571428572, 0.9125, 0.9758928571428571, 0.9491071428571428, 0.93125, 0.9080357142857143, 0.8535714285714285]
+02/23/2023 22:54:31 - INFO - frame.my_frame -   [0.9883928571428572, 0.9232142857142858, 0.9410714285714286, 0.9194196428571428, 0.9096428571428572, 0.8858630952380953, 0.8686224489795918]
+02/23/2023 23:06:08 - INFO - frame.my_frame -   Restart Num 1
+02/23/2023 23:06:08 - INFO - frame.my_frame -   task--8:
+02/23/2023 23:06:08 - INFO - frame.my_frame -   current test acc:0.8973214285714286
+02/23/2023 23:06:08 - INFO - frame.my_frame -   history test acc:0.8677455357142857
+02/23/2023 23:06:08 - INFO - frame.my_frame -   [0.9883928571428572, 0.9125, 0.9758928571428571, 0.9491071428571428, 0.93125, 0.9080357142857143, 0.8535714285714285, 0.8973214285714286]
+02/23/2023 23:06:08 - INFO - frame.my_frame -   [0.9883928571428572, 0.9232142857142858, 0.9410714285714286, 0.9194196428571428, 0.9096428571428572, 0.8858630952380953, 0.8686224489795918, 0.8677455357142857]
+02/23/2023 23:18:43 - INFO - frame.my_frame -   Restart Num 1
+02/23/2023 23:18:43 - INFO - frame.my_frame -   task--9:
+02/23/2023 23:18:43 - INFO - frame.my_frame -   current test acc:0.9419642857142857
+02/23/2023 23:18:43 - INFO - frame.my_frame -   history test acc:0.8650793650793651
+02/23/2023 23:18:43 - INFO - frame.my_frame -   [0.9883928571428572, 0.9125, 0.9758928571428571, 0.9491071428571428, 0.93125, 0.9080357142857143, 0.8535714285714285, 0.8973214285714286, 0.9419642857142857]
+02/23/2023 23:18:43 - INFO - frame.my_frame -   [0.9883928571428572, 0.9232142857142858, 0.9410714285714286, 0.9194196428571428, 0.9096428571428572, 0.8858630952380953, 0.8686224489795918, 0.8677455357142857, 0.8650793650793651]
+02/23/2023 23:31:57 - INFO - frame.my_frame -   Restart Num 1
+02/23/2023 23:31:57 - INFO - frame.my_frame -   task--10:
+02/23/2023 23:31:57 - INFO - frame.my_frame -   current test acc:0.8446428571428571
+02/23/2023 23:31:57 - INFO - frame.my_frame -   history test acc:0.8448214285714286
+02/23/2023 23:31:57 - INFO - frame.my_frame -   [0.9883928571428572, 0.9125, 0.9758928571428571, 0.9491071428571428, 0.93125, 0.9080357142857143, 0.8535714285714285, 0.8973214285714286, 0.9419642857142857, 0.8446428571428571]
+02/23/2023 23:31:57 - INFO - frame.my_frame -   [0.9883928571428572, 0.9232142857142858, 0.9410714285714286, 0.9194196428571428, 0.9096428571428572, 0.8858630952380953, 0.8686224489795918, 0.8677455357142857, 0.8650793650793651, 0.8448214285714286]
+02/23/2023 23:39:09 - INFO - frame.my_frame -   Restart Num 2
+02/23/2023 23:39:09 - INFO - frame.my_frame -   task--1:
+02/23/2023 23:39:09 - INFO - frame.my_frame -   current test acc:0.9919642857142857
+02/23/2023 23:39:09 - INFO - frame.my_frame -   history test acc:0.9919642857142857
+02/23/2023 23:39:09 - INFO - frame.my_frame -   [0.9919642857142857]
+02/23/2023 23:39:09 - INFO - frame.my_frame -   [0.9919642857142857]
+02/23/2023 23:47:51 - INFO - frame.my_frame -   Restart Num 2
+02/23/2023 23:47:51 - INFO - frame.my_frame -   task--2:
+02/23/2023 23:47:51 - INFO - frame.my_frame -   current test acc:0.9598214285714286
+02/23/2023 23:47:51 - INFO - frame.my_frame -   history test acc:0.9727678571428572
+02/23/2023 23:47:51 - INFO - frame.my_frame -   [0.9919642857142857, 0.9598214285714286]
+02/23/2023 23:47:51 - INFO - frame.my_frame -   [0.9919642857142857, 0.9727678571428572]
+02/23/2023 23:57:06 - INFO - frame.my_frame -   Restart Num 2
+02/23/2023 23:57:06 - INFO - frame.my_frame -   task--3:
+02/23/2023 23:57:06 - INFO - frame.my_frame -   current test acc:0.9321428571428572
+02/23/2023 23:57:06 - INFO - frame.my_frame -   history test acc:0.9392857142857143
+02/23/2023 23:57:06 - INFO - frame.my_frame -   [0.9919642857142857, 0.9598214285714286, 0.9321428571428572]
+02/23/2023 23:57:06 - INFO - frame.my_frame -   [0.9919642857142857, 0.9727678571428572, 0.9392857142857143]
